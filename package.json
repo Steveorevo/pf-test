@@ -1,0 +1,15 @@
+{
+    "name": "pf-test",
+    "description": "An example PublishFlows project with a published subflow.",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flow.json",
+            "credentialsFile": "flow_cred.json"
+        },
+        "nodes": {
+            "pf-test_manifest": "manifest.js"
+        }
+    }
+}
